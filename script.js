@@ -11,6 +11,8 @@ let roundQueue = [];
 let selectedIndex = null;
 let answered = false;
 let currentRound = 0;
+const PRELOAD_AHEAD = 4;
+const preloadedImages = new Set();
 
 function shuffle(items) {
   const copy = [...items];
@@ -25,6 +27,26 @@ function shuffle(items) {
 
 function sample(items, count) {
   return shuffle(items).slice(0, count);
+}
+
+function preloadImage(src) {
+  if (!src || preloadedImages.has(src)) {
+    return;
+  }
+
+  preloadedImages.add(src);
+  const image = new Image();
+  image.decoding = "async";
+  image.src = src;
+}
+
+function preloadSet(set) {
+  const images = Array.isArray(set.images) ? set.images : [set.answer, ...set.decoys];
+  images.forEach(preloadImage);
+}
+
+function preloadUpcomingSets() {
+  roundQueue.slice(0, PRELOAD_AHEAD).forEach(preloadSet);
 }
 
 async function loadData() {
@@ -163,6 +185,7 @@ function markSelectedAnswer(isCorrect) {
 }
 
 function showSet(set) {
+  preloadSet(set);
   const decoys = sample(set.decoys, 3);
 
   currentOptions = shuffle([
@@ -175,6 +198,7 @@ function showSet(set) {
   renderOptions();
   setMessage("請選出真正的原圖。");
   updateStartButton();
+  preloadUpcomingSets();
 }
 
 function finishGame() {
@@ -231,6 +255,7 @@ async function startGame() {
 
       roundQueue = shuffle(data.sets);
       currentRound = 0;
+      preloadUpcomingSets();
     }
 
     const set = roundQueue.shift();
