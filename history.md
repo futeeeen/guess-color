@@ -1,5 +1,10 @@
 # 專案推送變更紀錄
 
+## 2026.06.13_00:27:14
+* 追加 `pic/22` 新增的 1 張圖片檔案，讓本機素材同步到 GitHub repository 並觸發 Pages 自動部署。
+* 重新執行 `generate_data.py`；目前仍為 21 個可玩題組，`pic/22` 因沒有 Answer 圖繼續被略過。
+* Validation: ran `python .\generate_data.py` and `python -m json.tool .\data.json`.
+
 ## 2026.06.13_00:24:10
 * 新增 GitHub Actions workflow，push 到 `main` 時會自動把靜態站部署到 GitHub Pages。
 * 新增 `.nojekyll`，避免 GitHub Pages 用 Jekyll 處理靜態檔案。
