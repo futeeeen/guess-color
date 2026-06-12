@@ -1,5 +1,10 @@
 # 專案推送變更紀錄
 
+## 2026.06.13_01:39:52
+* 更新圖庫與題庫資料，新增 `pic/26`、`pic/27`、`pic/28` 題組素材。
+* 重新執行 `generate_data.py`，`data.json` 目前包含 28 個可玩題組且沒有 warning。
+* Validation: ran `python .\generate_data.py`, `python -m json.tool .\data.json`, and `node --check .\script.js`.
+
 ## 2026.06.13_01:16:28
 * 更新題庫資料，重新掃描 `pic/` 後 `data.json` 目前包含 25 個可玩題組，新增收錄第 22 到 25 題。
 * 調整未公布答案時的回饋：答錯顯示紅字與紅框，答對顯示綠字與綠框。

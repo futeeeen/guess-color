@@ -1,6 +1,6 @@
 {
   "generatedBy": "generate_data.py",
-  "setCount": 25,
+  "setCount": 28,
   "sets": [
     {
       "id": "1",
@@ -298,6 +298,54 @@
         "pic/25/51df6285-ea62-425d-be5a-77d1f5777061.png",
         "pic/25/answer.jpg",
         "pic/25/e94760d9-ff1d-4a3e-911a-0c4463247b19.png"
+      ]
+    },
+    {
+      "id": "26",
+      "folder": "pic/26",
+      "answer": "pic/26/answer.jpg",
+      "decoys": [
+        "pic/26/371daf28-46cf-46d3-a1a9-379f4f37aa4e.png",
+        "pic/26/aaca3d7e-1f7a-41e5-a3f3-cecbd5fc09ae.png",
+        "pic/26/bca89582-5429-4a58-8f88-a506fc8bbe5b.png"
+      ],
+      "images": [
+        "pic/26/371daf28-46cf-46d3-a1a9-379f4f37aa4e.png",
+        "pic/26/aaca3d7e-1f7a-41e5-a3f3-cecbd5fc09ae.png",
+        "pic/26/answer.jpg",
+        "pic/26/bca89582-5429-4a58-8f88-a506fc8bbe5b.png"
+      ]
+    },
+    {
+      "id": "27",
+      "folder": "pic/27",
+      "answer": "pic/27/answer.jpg",
+      "decoys": [
+        "pic/27/3ebf0f93-b358-4a93-b985-b3c7a22eb4da.png",
+        "pic/27/5b896ff6-06e2-4e50-8ff2-085d23c39a66.png",
+        "pic/27/8b68cc9f-ae31-455b-a676-10260036a46a.png"
+      ],
+      "images": [
+        "pic/27/3ebf0f93-b358-4a93-b985-b3c7a22eb4da.png",
+        "pic/27/5b896ff6-06e2-4e50-8ff2-085d23c39a66.png",
+        "pic/27/8b68cc9f-ae31-455b-a676-10260036a46a.png",
+        "pic/27/answer.jpg"
+      ]
+    },
+    {
+      "id": "28",
+      "folder": "pic/28",
+      "answer": "pic/28/answer.jpg",
+      "decoys": [
+        "pic/28/4755e2a7-ab01-4507-b25f-fb2e798ce896.png",
+        "pic/28/65bc43d8-efc9-4617-89c8-03389fcf3198.png",
+        "pic/28/75ad3491-4cfa-4b53-972a-32a311d70f61.png"
+      ],
+      "images": [
+        "pic/28/4755e2a7-ab01-4507-b25f-fb2e798ce896.png",
+        "pic/28/65bc43d8-efc9-4617-89c8-03389fcf3198.png",
+        "pic/28/75ad3491-4cfa-4b53-972a-32a311d70f61.png",
+        "pic/28/answer.jpg"
       ]
     },
     {
