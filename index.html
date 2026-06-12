@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>猜顏色 / 找原圖</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <button id="startButton" class="primary-button" type="button">開始遊戲</button>
+        <label class="answer-toggle">
+          <input id="revealAnswer" type="checkbox" />
+          <span>是否公布答案</span>
+        </label>
+      </header>
+
+      <section class="status-panel" aria-live="polite">
+        <div>
+          <p id="roundLabel" class="round-label">尚未開始</p>
+          <h1 id="message" class="message">按下開始遊戲，找出沒有被改色的原圖。</h1>
+        </div>
+        <button id="confirmButton" class="secondary-button" type="button" disabled>
+          確認答案
+        </button>
+      </section>
+
+      <section id="imageGrid" class="image-grid" aria-label="圖片選項"></section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

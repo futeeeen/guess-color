@@ -1,0 +1,352 @@
+{
+  "generatedBy": "generate_data.py",
+  "setCount": 21,
+  "sets": [
+    {
+      "id": "1",
+      "folder": "pic/1",
+      "answer": "pic/1/answer.jpg",
+      "decoys": [
+        "pic/1/4889eedf-8ab4-45af-81a6-d9ce6ec4abf4.png",
+        "pic/1/4f7d4d1a-8deb-43fb-9d1e-c69d04005b77.png",
+        "pic/1/cbef906e-9c42-4083-8a68-81dd0e8566a6.png"
+      ],
+      "images": [
+        "pic/1/4889eedf-8ab4-45af-81a6-d9ce6ec4abf4.png",
+        "pic/1/4f7d4d1a-8deb-43fb-9d1e-c69d04005b77.png",
+        "pic/1/answer.jpg",
+        "pic/1/cbef906e-9c42-4083-8a68-81dd0e8566a6.png"
+      ]
+    },
+    {
+      "id": "10",
+      "folder": "pic/10",
+      "answer": "pic/10/answer.jpg",
+      "decoys": [
+        "pic/10/35221aef-1608-4691-8700-067c837ef611.jpg",
+        "pic/10/59e4071b-7b0f-4946-9c3f-2eca3e16483e.jpg",
+        "pic/10/6076f99d-9e2a-44b7-aaab-f3923bf20c91.jpg"
+      ],
+      "images": [
+        "pic/10/35221aef-1608-4691-8700-067c837ef611.jpg",
+        "pic/10/59e4071b-7b0f-4946-9c3f-2eca3e16483e.jpg",
+        "pic/10/6076f99d-9e2a-44b7-aaab-f3923bf20c91.jpg",
+        "pic/10/answer.jpg"
+      ]
+    },
+    {
+      "id": "11",
+      "folder": "pic/11",
+      "answer": "pic/11/answer.jpg",
+      "decoys": [
+        "pic/11/2358787e-743d-427d-855a-820ef105b781.png",
+        "pic/11/26f4f232-1ed5-44f2-b150-52e7cae09e64.png",
+        "pic/11/92548fe2-8aad-4852-98ee-57de72dbaf7d.png"
+      ],
+      "images": [
+        "pic/11/2358787e-743d-427d-855a-820ef105b781.png",
+        "pic/11/26f4f232-1ed5-44f2-b150-52e7cae09e64.png",
+        "pic/11/92548fe2-8aad-4852-98ee-57de72dbaf7d.png",
+        "pic/11/answer.jpg"
+      ]
+    },
+    {
+      "id": "12",
+      "folder": "pic/12",
+      "answer": "pic/12/answer.jpg",
+      "decoys": [
+        "pic/12/564ed4c3-067e-45b1-bdfa-b46d34fcd32a.png",
+        "pic/12/7a7ead98-c8be-4c8e-885a-c3c8de02582e.png",
+        "pic/12/7b833516-37ae-4e06-aa36-f0b9ed7082bd.png"
+      ],
+      "images": [
+        "pic/12/564ed4c3-067e-45b1-bdfa-b46d34fcd32a.png",
+        "pic/12/7a7ead98-c8be-4c8e-885a-c3c8de02582e.png",
+        "pic/12/7b833516-37ae-4e06-aa36-f0b9ed7082bd.png",
+        "pic/12/answer.jpg"
+      ]
+    },
+    {
+      "id": "13",
+      "folder": "pic/13",
+      "answer": "pic/13/answer.jpg",
+      "decoys": [
+        "pic/13/12736cf7-cd48-4928-8a70-e1ad36cc1dba.jpg",
+        "pic/13/54505e4a-c04d-412f-b499-ae4bb6a4362b.jpg",
+        "pic/13/89d74a2b-b98c-42ad-ae06-95b7d8597257.jpg"
+      ],
+      "images": [
+        "pic/13/12736cf7-cd48-4928-8a70-e1ad36cc1dba.jpg",
+        "pic/13/54505e4a-c04d-412f-b499-ae4bb6a4362b.jpg",
+        "pic/13/89d74a2b-b98c-42ad-ae06-95b7d8597257.jpg",
+        "pic/13/answer.jpg"
+      ]
+    },
+    {
+      "id": "14",
+      "folder": "pic/14",
+      "answer": "pic/14/answer.jpg",
+      "decoys": [
+        "pic/14/7aef79a9-f89d-4c19-bbff-599768101e24.png",
+        "pic/14/9a404afe-a1d0-4237-aa32-cefa6f0e2798.png",
+        "pic/14/c6911b5d-8201-4298-9400-7d5bf2c1447f.png"
+      ],
+      "images": [
+        "pic/14/7aef79a9-f89d-4c19-bbff-599768101e24.png",
+        "pic/14/9a404afe-a1d0-4237-aa32-cefa6f0e2798.png",
+        "pic/14/answer.jpg",
+        "pic/14/c6911b5d-8201-4298-9400-7d5bf2c1447f.png"
+      ]
+    },
+    {
+      "id": "15",
+      "folder": "pic/15",
+      "answer": "pic/15/answer.jpg",
+      "decoys": [
+        "pic/15/1f0f47a8-3ab9-4c45-bea1-97ac6c3d7769.jpg",
+        "pic/15/83b2d535-f236-4679-a0b3-08a4d5d2ab63.jpg",
+        "pic/15/abfeb86d-ba22-43af-8262-8e674efd8788.jpg"
+      ],
+      "images": [
+        "pic/15/1f0f47a8-3ab9-4c45-bea1-97ac6c3d7769.jpg",
+        "pic/15/83b2d535-f236-4679-a0b3-08a4d5d2ab63.jpg",
+        "pic/15/abfeb86d-ba22-43af-8262-8e674efd8788.jpg",
+        "pic/15/answer.jpg"
+      ]
+    },
+    {
+      "id": "16",
+      "folder": "pic/16",
+      "answer": "pic/16/answer.jpg",
+      "decoys": [
+        "pic/16/7160b567-0a68-4305-8714-619d37a77263.png",
+        "pic/16/97c10144-94a6-47f5-95ba-9c10439105f2.png",
+        "pic/16/b40a5eda-8644-455e-a7d1-c87787308722.png"
+      ],
+      "images": [
+        "pic/16/7160b567-0a68-4305-8714-619d37a77263.png",
+        "pic/16/97c10144-94a6-47f5-95ba-9c10439105f2.png",
+        "pic/16/answer.jpg",
+        "pic/16/b40a5eda-8644-455e-a7d1-c87787308722.png"
+      ]
+    },
+    {
+      "id": "17",
+      "folder": "pic/17",
+      "answer": "pic/17/answer.jpg",
+      "decoys": [
+        "pic/17/7d50d004-61ee-4aaa-995b-157722e8a082.jpg",
+        "pic/17/87abf6b8-a7dd-4808-a474-3688cc89f115.jpg",
+        "pic/17/b8a11d62-7a38-41cd-9bdb-571f61fbf7d2.jpg"
+      ],
+      "images": [
+        "pic/17/7d50d004-61ee-4aaa-995b-157722e8a082.jpg",
+        "pic/17/87abf6b8-a7dd-4808-a474-3688cc89f115.jpg",
+        "pic/17/answer.jpg",
+        "pic/17/b8a11d62-7a38-41cd-9bdb-571f61fbf7d2.jpg"
+      ]
+    },
+    {
+      "id": "18",
+      "folder": "pic/18",
+      "answer": "pic/18/answer.jpg",
+      "decoys": [
+        "pic/18/154bb214-943a-422c-834c-06bb446a5926.png",
+        "pic/18/8761ba78-1b84-4295-bee4-38409b1fe668.png",
+        "pic/18/f61347ba-6053-49cd-a521-a1ac860e42f9.png"
+      ],
+      "images": [
+        "pic/18/154bb214-943a-422c-834c-06bb446a5926.png",
+        "pic/18/8761ba78-1b84-4295-bee4-38409b1fe668.png",
+        "pic/18/answer.jpg",
+        "pic/18/f61347ba-6053-49cd-a521-a1ac860e42f9.png"
+      ]
+    },
+    {
+      "id": "19",
+      "folder": "pic/19",
+      "answer": "pic/19/answer.jpg",
+      "decoys": [
+        "pic/19/2a15405d-e0a5-47e9-b5bb-6f7142385edc.jpg",
+        "pic/19/8a353e67-d995-4dc4-90ff-658041b4e81c.png",
+        "pic/19/90a4e071-d95f-4abb-9ccd-c541d422fba6.jpg"
+      ],
+      "images": [
+        "pic/19/2a15405d-e0a5-47e9-b5bb-6f7142385edc.jpg",
+        "pic/19/8a353e67-d995-4dc4-90ff-658041b4e81c.png",
+        "pic/19/90a4e071-d95f-4abb-9ccd-c541d422fba6.jpg",
+        "pic/19/answer.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "folder": "pic/2",
+      "answer": "pic/2/answer.jpg",
+      "decoys": [
+        "pic/2/螢幕擷取畫面 2026-06-12 214723.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 215457.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 215605.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 220701.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 220742.png"
+      ],
+      "images": [
+        "pic/2/answer.jpg",
+        "pic/2/螢幕擷取畫面 2026-06-12 214723.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 215457.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 215605.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 220701.png",
+        "pic/2/螢幕擷取畫面 2026-06-12 220742.png"
+      ]
+    },
+    {
+      "id": "20",
+      "folder": "pic/20",
+      "answer": "pic/20/answer.jpg",
+      "decoys": [
+        "pic/20/15eae802-cad6-4c72-8fd6-f928a8c32094.jpg",
+        "pic/20/1e153075-ff4d-4f51-9a84-d4e71dfc2885.jpg",
+        "pic/20/cb89a7f4-7a1d-412a-a05d-3f855b022441.jpg"
+      ],
+      "images": [
+        "pic/20/15eae802-cad6-4c72-8fd6-f928a8c32094.jpg",
+        "pic/20/1e153075-ff4d-4f51-9a84-d4e71dfc2885.jpg",
+        "pic/20/answer.jpg",
+        "pic/20/cb89a7f4-7a1d-412a-a05d-3f855b022441.jpg"
+      ]
+    },
+    {
+      "id": "21",
+      "folder": "pic/21",
+      "answer": "pic/21/answer.jpg",
+      "decoys": [
+        "pic/21/47f942ec-a0e8-45df-9adb-5d2bbf3af19b.png",
+        "pic/21/6b3f2db6-6da8-417d-9b0d-99cd4e3bc1bd.png",
+        "pic/21/abfd72b1-5a40-44b7-ae4c-a7a2be9368a3.png"
+      ],
+      "images": [
+        "pic/21/47f942ec-a0e8-45df-9adb-5d2bbf3af19b.png",
+        "pic/21/6b3f2db6-6da8-417d-9b0d-99cd4e3bc1bd.png",
+        "pic/21/abfd72b1-5a40-44b7-ae4c-a7a2be9368a3.png",
+        "pic/21/answer.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "folder": "pic/3",
+      "answer": "pic/3/answer.jpg",
+      "decoys": [
+        "pic/3/1928109d-de10-48ed-99f4-417e46799970.jpg",
+        "pic/3/4694760c-970b-4314-b504-e58304021c94.jpg",
+        "pic/3/580f6d21-a0b5-4856-8361-b738e8c245eb.jpg"
+      ],
+      "images": [
+        "pic/3/1928109d-de10-48ed-99f4-417e46799970.jpg",
+        "pic/3/4694760c-970b-4314-b504-e58304021c94.jpg",
+        "pic/3/580f6d21-a0b5-4856-8361-b738e8c245eb.jpg",
+        "pic/3/answer.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "folder": "pic/4",
+      "answer": "pic/4/answer.jpg",
+      "decoys": [
+        "pic/4/210ed000-dd40-4cb9-ac82-33b351078e10.png",
+        "pic/4/d3c7c0ae-fb78-49df-b0ac-436c2a7c93d0.png",
+        "pic/4/e3a90ea9-ccef-41e9-accc-34845fde27e6.png"
+      ],
+      "images": [
+        "pic/4/210ed000-dd40-4cb9-ac82-33b351078e10.png",
+        "pic/4/answer.jpg",
+        "pic/4/d3c7c0ae-fb78-49df-b0ac-436c2a7c93d0.png",
+        "pic/4/e3a90ea9-ccef-41e9-accc-34845fde27e6.png"
+      ]
+    },
+    {
+      "id": "5",
+      "folder": "pic/5",
+      "answer": "pic/5/answer.jpg",
+      "decoys": [
+        "pic/5/94326caa-6660-4493-b48e-7be966febe63.png",
+        "pic/5/a307e79f-3134-4bfd-8034-997aeab2ee91.png",
+        "pic/5/af058956-8705-439a-8e95-10f8717db111.png"
+      ],
+      "images": [
+        "pic/5/94326caa-6660-4493-b48e-7be966febe63.png",
+        "pic/5/a307e79f-3134-4bfd-8034-997aeab2ee91.png",
+        "pic/5/af058956-8705-439a-8e95-10f8717db111.png",
+        "pic/5/answer.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "folder": "pic/6",
+      "answer": "pic/6/answer.jpg",
+      "decoys": [
+        "pic/6/4a8a9f28-1522-4d28-b42d-443303b3360e.jpg",
+        "pic/6/98f88bc4-40f8-496a-ada8-f6d4f000f3f4.jpg",
+        "pic/6/ae659026-5bed-4b41-8561-83f00dedaf92.jpg"
+      ],
+      "images": [
+        "pic/6/4a8a9f28-1522-4d28-b42d-443303b3360e.jpg",
+        "pic/6/98f88bc4-40f8-496a-ada8-f6d4f000f3f4.jpg",
+        "pic/6/ae659026-5bed-4b41-8561-83f00dedaf92.jpg",
+        "pic/6/answer.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "folder": "pic/7",
+      "answer": "pic/7/answer.jpg",
+      "decoys": [
+        "pic/7/00c8dda1-5eba-4a40-b9c5-10c2b212327d.png",
+        "pic/7/0eae5c1b-b3e3-45e3-adc7-ad9f496689a9.png",
+        "pic/7/98f831ac-7af5-4f91-aeba-cadad5fe5a33.png"
+      ],
+      "images": [
+        "pic/7/00c8dda1-5eba-4a40-b9c5-10c2b212327d.png",
+        "pic/7/0eae5c1b-b3e3-45e3-adc7-ad9f496689a9.png",
+        "pic/7/98f831ac-7af5-4f91-aeba-cadad5fe5a33.png",
+        "pic/7/answer.jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "folder": "pic/8",
+      "answer": "pic/8/answer.jpg",
+      "decoys": [
+        "pic/8/螢幕擷取畫面 2026-06-12 222542.png",
+        "pic/8/螢幕擷取畫面 2026-06-12 222616.png",
+        "pic/8/螢幕擷取畫面 2026-06-12 222644.png"
+      ],
+      "images": [
+        "pic/8/answer.jpg",
+        "pic/8/螢幕擷取畫面 2026-06-12 222542.png",
+        "pic/8/螢幕擷取畫面 2026-06-12 222616.png",
+        "pic/8/螢幕擷取畫面 2026-06-12 222644.png"
+      ]
+    },
+    {
+      "id": "9",
+      "folder": "pic/9",
+      "answer": "pic/9/answer.jpg",
+      "decoys": [
+        "pic/9/1098a358-77b2-4d25-8e0f-424298fda47c.png",
+        "pic/9/3242688f-3a2d-4c8a-84d5-59e647cc8421.png",
+        "pic/9/e3ba14a1-391d-4f73-a4b5-22f0731b1fd2.png"
+      ],
+      "images": [
+        "pic/9/1098a358-77b2-4d25-8e0f-424298fda47c.png",
+        "pic/9/3242688f-3a2d-4c8a-84d5-59e647cc8421.png",
+        "pic/9/answer.jpg",
+        "pic/9/e3ba14a1-391d-4f73-a4b5-22f0731b1fd2.png"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "folder": "pic/22",
+      "reason": "expected exactly 1 Answer image, found 0"
+    }
+  ]
+}
