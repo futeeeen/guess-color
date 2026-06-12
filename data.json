@@ -1,6 +1,6 @@
 {
   "generatedBy": "generate_data.py",
-  "setCount": 21,
+  "setCount": 25,
   "sets": [
     {
       "id": "1",
@@ -231,6 +231,76 @@
       ]
     },
     {
+      "id": "22",
+      "folder": "pic/22",
+      "answer": "pic/22/answer.jpg",
+      "decoys": [
+        "pic/22/0a3e9306-cb2c-4685-877a-956b7f714cb3.jpg",
+        "pic/22/4e3b222a-42c0-4112-b69b-095a81b03731.jpg",
+        "pic/22/b5696e88-384f-4bef-98c6-177215ffe725.jpg",
+        "pic/22/bc5e8860-4216-449b-9c57-b7d248f3c0e3.jpg"
+      ],
+      "images": [
+        "pic/22/0a3e9306-cb2c-4685-877a-956b7f714cb3.jpg",
+        "pic/22/4e3b222a-42c0-4112-b69b-095a81b03731.jpg",
+        "pic/22/answer.jpg",
+        "pic/22/b5696e88-384f-4bef-98c6-177215ffe725.jpg",
+        "pic/22/bc5e8860-4216-449b-9c57-b7d248f3c0e3.jpg"
+      ]
+    },
+    {
+      "id": "23",
+      "folder": "pic/23",
+      "answer": "pic/23/answer.jpg",
+      "decoys": [
+        "pic/23/3b3bebc6-147b-49ec-8be2-37574aa499c2.png",
+        "pic/23/916c6151-bb4c-4466-82db-f646c0be0801.png",
+        "pic/23/c44653d6-9fa8-45ec-978c-2a64313f4bad.png",
+        "pic/23/e510b259-9253-4d17-8ecf-e9dc15ec7034.png",
+        "pic/23/ee5ae91e-2a05-4515-ba5b-d03705646715.png"
+      ],
+      "images": [
+        "pic/23/3b3bebc6-147b-49ec-8be2-37574aa499c2.png",
+        "pic/23/916c6151-bb4c-4466-82db-f646c0be0801.png",
+        "pic/23/answer.jpg",
+        "pic/23/c44653d6-9fa8-45ec-978c-2a64313f4bad.png",
+        "pic/23/e510b259-9253-4d17-8ecf-e9dc15ec7034.png",
+        "pic/23/ee5ae91e-2a05-4515-ba5b-d03705646715.png"
+      ]
+    },
+    {
+      "id": "24",
+      "folder": "pic/24",
+      "answer": "pic/24/answer.jpg",
+      "decoys": [
+        "pic/24/8d304894-cbc4-4e54-b876-99ce3259d555.png",
+        "pic/24/9da1459a-9f31-4f41-9f63-1e0799884909.png",
+        "pic/24/e5fa2570-e04e-42ed-b229-6b22ce0fac43.png"
+      ],
+      "images": [
+        "pic/24/8d304894-cbc4-4e54-b876-99ce3259d555.png",
+        "pic/24/9da1459a-9f31-4f41-9f63-1e0799884909.png",
+        "pic/24/answer.jpg",
+        "pic/24/e5fa2570-e04e-42ed-b229-6b22ce0fac43.png"
+      ]
+    },
+    {
+      "id": "25",
+      "folder": "pic/25",
+      "answer": "pic/25/answer.jpg",
+      "decoys": [
+        "pic/25/4b83033c-eaf2-44b8-8b16-8873f1f20152.png",
+        "pic/25/51df6285-ea62-425d-be5a-77d1f5777061.png",
+        "pic/25/e94760d9-ff1d-4a3e-911a-0c4463247b19.png"
+      ],
+      "images": [
+        "pic/25/4b83033c-eaf2-44b8-8b16-8873f1f20152.png",
+        "pic/25/51df6285-ea62-425d-be5a-77d1f5777061.png",
+        "pic/25/answer.jpg",
+        "pic/25/e94760d9-ff1d-4a3e-911a-0c4463247b19.png"
+      ]
+    },
+    {
       "id": "3",
       "folder": "pic/3",
       "answer": "pic/3/answer.jpg",
@@ -343,10 +413,5 @@
       ]
     }
   ],
-  "warnings": [
-    {
-      "folder": "pic/22",
-      "reason": "expected exactly 1 Answer image, found 0"
-    }
-  ]
+  "warnings": []
 }

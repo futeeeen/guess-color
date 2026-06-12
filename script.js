@@ -46,8 +46,10 @@ async function loadData() {
   return gameData;
 }
 
-function setMessage(text) {
+function setMessage(text, tone = "") {
   message.textContent = text;
+  message.classList.toggle("is-success", tone === "success");
+  message.classList.toggle("is-error", tone === "error");
 }
 
 function clearGrid() {
@@ -58,10 +60,42 @@ function resetSelectionState() {
   selectedIndex = null;
   answered = false;
   confirmButton.disabled = true;
+  setMessage(message.textContent);
 }
 
 function updateStartButton() {
   startButton.textContent = currentOptions.length > 0 ? "下一關" : "開始遊戲";
+}
+
+function updateBadgePosition(button, image) {
+  if (!image.naturalWidth || !image.naturalHeight || !image.clientWidth || !image.clientHeight) {
+    return;
+  }
+
+  const imageRatio = image.naturalWidth / image.naturalHeight;
+  const boxRatio = image.clientWidth / image.clientHeight;
+  let renderedWidth = image.clientWidth;
+  let renderedHeight = image.clientHeight;
+
+  if (boxRatio > imageRatio) {
+    renderedWidth = renderedHeight * imageRatio;
+  } else {
+    renderedHeight = renderedWidth / imageRatio;
+  }
+
+  const insetRight = Math.max(0, (image.clientWidth - renderedWidth) / 2);
+  const insetBottom = Math.max(0, (image.clientHeight - renderedHeight) / 2);
+  button.style.setProperty("--badge-right", `${insetRight}px`);
+  button.style.setProperty("--badge-bottom", `${insetBottom}px`);
+}
+
+function updateAllBadgePositions() {
+  document.querySelectorAll(".option").forEach((button) => {
+    const image = button.querySelector("img");
+    if (image) {
+      updateBadgePosition(button, image);
+    }
+  });
 }
 
 function renderOptions() {
@@ -86,8 +120,13 @@ function renderOptions() {
     badge.textContent = String(index + 1);
 
     button.append(image, badge);
+    image.addEventListener("load", () => updateBadgePosition(button, image));
     button.addEventListener("click", () => selectOption(index));
     imageGrid.append(button);
+
+    if (image.complete) {
+      updateBadgePosition(button, image);
+    }
   });
 }
 
@@ -111,6 +150,15 @@ function markAnswer() {
     const isCorrect = currentOptions[index].isAnswer;
     option.classList.toggle("is-correct", isCorrect);
     option.classList.toggle("is-wrong", !isCorrect);
+  });
+}
+
+function markSelectedAnswer(isCorrect) {
+  document.querySelectorAll(".option").forEach((option, index) => {
+    const isSelected = index === selectedIndex;
+    option.classList.toggle("is-correct", isSelected && isCorrect);
+    option.classList.toggle("is-wrong", isSelected && !isCorrect);
+    option.classList.toggle("is-selected", isSelected && !isCorrect);
   });
 }
 
@@ -153,14 +201,17 @@ function confirmAnswer() {
   const correctIndex = currentOptions.findIndex((option) => option.isAnswer);
   const isCorrect = selectedIndex === correctIndex;
   const nextText = roundQueue.length > 0 ? "按下一關繼續。" : "這是最後一題，按下一關完成。";
+  const tone = isCorrect ? "success" : "error";
 
   if (revealAnswer.checked) {
     markAnswer();
     setMessage(
-      `${isCorrect ? "答對了！" : "答錯了！"} 正確答案是第 ${correctIndex + 1} 張。${nextText}`
+      `${isCorrect ? "答對了！" : "答錯了！"} 正確答案是第 ${correctIndex + 1} 張。${nextText}`,
+      tone
     );
   } else {
-    setMessage(`${isCorrect ? "答對了！" : "答錯了！"} ${nextText}`);
+    markSelectedAnswer(isCorrect);
+    setMessage(`${isCorrect ? "答對了！" : "答錯了！"} ${nextText}`, tone);
   }
 }
 
@@ -189,7 +240,7 @@ async function startGame() {
     roundQueue = [];
     currentRound = 0;
     roundLabel.textContent = "載入失敗";
-    setMessage(error instanceof Error ? error.message : "發生未知錯誤。");
+    setMessage(error instanceof Error ? error.message : "發生未知錯誤。", "error");
     updateStartButton();
     startButton.disabled = false;
   }
@@ -197,3 +248,4 @@ async function startGame() {
 
 startButton.addEventListener("click", startGame);
 confirmButton.addEventListener("click", confirmAnswer);
+window.addEventListener("resize", updateAllBadgePositions);

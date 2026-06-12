@@ -1,5 +1,12 @@
 # 專案推送變更紀錄
 
+## 2026.06.13_01:16:28
+* 更新題庫資料，重新掃描 `pic/` 後 `data.json` 目前包含 25 個可玩題組，新增收錄第 22 到 25 題。
+* 調整未公布答案時的回饋：答錯顯示紅字與紅框，答對顯示綠字與綠框。
+* 修正圖片右下角浮水印遮擋位置，讓 `1`、`2`、`3`、`4` 編號塊貼齊實際圖片右下角，而不是卡片留白區。
+* 同步 `pic/22` 圖片汰換與新增 `pic/23`、`pic/24`、`pic/25` 題組素材。
+* Validation: ran `python .\generate_data.py`, `python -m json.tool .\data.json`, and `node --check .\script.js`.
+
 ## 2026.06.13_00:27:14
 * 追加 `pic/22` 新增的 1 張圖片檔案，讓本機素材同步到 GitHub repository 並觸發 Pages 自動部署。
 * 重新執行 `generate_data.py`；目前仍為 21 個可玩題組，`pic/22` 因沒有 Answer 圖繼續被略過。

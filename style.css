@@ -143,6 +143,14 @@ input {
   letter-spacing: 0;
 }
 
+.message.is-success {
+  color: #008b4a;
+}
+
+.message.is-error {
+  color: #d71920;
+}
+
 .image-grid {
   min-height: 0;
   display: grid;
@@ -200,20 +208,21 @@ input {
 
 .badge {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: var(--badge-right, 0);
+  bottom: var(--badge-bottom, 0);
   z-index: 5;
-  min-width: 44px;
-  min-height: 38px;
-  padding: 7px 13px 8px;
+  width: clamp(58px, 15vw, 72px);
+  height: clamp(56px, 14vw, 68px);
+  padding: 8px 14px;
   display: grid;
   place-items: center;
   color: #ffffff;
   background: #050806;
   border-top-left-radius: 8px;
-  font-size: 1.2rem;
+  font-size: clamp(1.35rem, 6vw, 1.8rem);
   font-weight: 900;
   line-height: 1;
+  pointer-events: none;
 }
 
 @media (min-width: 640px) {
